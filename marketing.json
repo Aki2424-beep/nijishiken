@@ -1,0 +1,1773 @@
+{
+  "section": {
+    "id": "marketing",
+    "name": "マーケティング・流通編",
+    "color": "#00b894"
+  },
+  "trees": [
+    {
+      "id": 1,
+      "title": "店舗販売における売上高増加の一般的施策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "売上向上",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "来店客数増加",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "客単価向上",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "新規顧客開拓",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "既存顧客",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a11",
+          "label": "商圏拡大",
+          "parentId": "a1",
+          "isGiven": false
+        },
+        {
+          "id": "a12",
+          "label": "顧客層拡大",
+          "parentId": "a1",
+          "isGiven": false
+        },
+        {
+          "id": "a21",
+          "label": "CRM",
+          "parentId": "a2",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "上位商品販売\n（アップセル）",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "関連商品販売\n（クロスセル）",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "現製品使用量の増加",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "ブランド育成についての検討事項を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "ブランド育成",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "訴求対象の明確化\n（誰に）",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "コンセプトを一貫させる\n（何を）",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "継続的な認知度向上\n（どのように）",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "先発ブランドとして成功するための重要要素を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "先発ブランド",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "カテゴリーファースト",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "性能・品質の差別化",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "パッケージ・デザインの\n差別化",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "広告・宣伝のクオリティ",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "コトラーのブランド戦略分類の4類型を答えなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "ブランド戦略",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "ライン拡張",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "マルチブランド",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "ブランド拡張",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "新ブランド",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "ライン拡張のメリット・デメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "ライン拡張",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "リスクが小さい",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "コストが低い",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "大きなリターンは\n望みにくい",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "既存製品との差別化が\n困難なことが多い",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "カニバリゼーション\n（共食い現象）",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "ブランド拡張のメリット・デメリット・留意点を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "ブランド拡張",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "留意点",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "コストが低い",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "消費者に受入れやすい",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "失敗時の元ブランドへの\nダメージ",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "ブランドアイデンティティ\nとの調和",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "適切な市場細分化と\n市場調査",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "マルチブランドのメリット・デメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "マルチブランド",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "カニバリゼーションの回避",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "過去のイメージの一新",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "旧ブランドの資産放棄",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "コストが高い",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "サービス業の主要な4つの特性と問題点を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "サービス業",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "無形性",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "異質性（非均一性）",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "不可逆性",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "同時不可分性",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "内容や質を伝える\nのが困難",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "品質にバラツキが出る",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "元に戻すことができない",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "d1",
+          "label": "在庫調整ができない",
+          "parentId": "d",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "サービスの無形性への主要な対策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "無形性への対策",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "お試し・無料体験",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "詳しいパンフレット・\n体験談",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "保証・返金制度",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "サービスの異質性への主要な対策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "異質性への対策",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "教育",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "モチベーション\nマネージメント",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "標準化・マニュアル化",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "OJT",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "Off-JT",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "自己啓発支援",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "動機づけ要因",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "衛生要因",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "サービスの非貯蔵性への主要な対策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "非貯蔵性への対策",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "外部",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "内部",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "価格差別",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "予約制",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "情報公開",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "パート等の活用",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "店舗間振替",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "労働集約性への対策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "労働集約性への対策",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "ITの活用",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "セルフサービスの活用",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "非正規労働者の活用",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "市場細分化の指標を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "市場細分化の指標\n（セグメンテーション）",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "定量的基準",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "定性的基準",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "地理的基準",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "人口統計的基準",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "心理的基準",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "行動基準",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "定量的データの活用を時系列に3つに分類しなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "定量的データ活用",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "収集",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "分析",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "活用",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "POSシステム等",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "RFM分析・デシル分析",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "FSP",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "定性的データの活用を時系列に3つに分類しなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "定性的データ活用",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "収集",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "分析",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "活用",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "アンケート等",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "新QC7つ道具等",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "品揃え・新商品開発等",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "品揃えについての検討事項を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "品揃え",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "コンセプト",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "内部",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "外部",
+          "parentId": "a",
+          "isGiven": true
+        },
+        {
+          "id": "a2",
+          "label": "コア商品",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a11",
+          "label": "仕入れ先選定",
+          "parentId": "a1",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "ソフト",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "ハード",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b11",
+          "label": "ノウハウ",
+          "parentId": "b1",
+          "isGiven": false
+        },
+        {
+          "id": "b12",
+          "label": "シナジー・\nカニバリゼーション",
+          "parentId": "b1",
+          "isGiven": false
+        },
+        {
+          "id": "b21",
+          "label": "スペース",
+          "parentId": "b2",
+          "isGiven": false
+        },
+        {
+          "id": "b22",
+          "label": "店舗施設（什器等）",
+          "parentId": "b2",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "ISM「スペースマネジメント」要点と具体例を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "スペース\nマネジメント",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "レイアウト",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "棚割り",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "良好な回遊性",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "長い客導線",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "見やすさ",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "手に取りやすさ",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "ISM「インストア・プロモーション」要点と具体例を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "インストア\nプロモーション",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "価格主導",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "非価格主導",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "バーゲン",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "クーポン",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "クロスMD",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "デモンストレーション販売",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "POP",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "POPのコンテンツ内容を効果的にするための留意点を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "POPのコンテンツ",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "特別感（VRIO）",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "安心感",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "特別な仕入先",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "オリジナル",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "限定（季節等）",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "売れ筋商品",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "生産者の明示",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "消費者向けの非人的販売促進の具体例を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "消費者向け\n非人的販売促進",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "スタンプ・ポイント",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "プレミアム",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "ノベルティ",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "セール",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "サンプル",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "口コミのメリット・デメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "口コミ",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "コストが不要",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "ロイヤルカスタマーの\n増加につながりやすい",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "コントロールが困難",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "悪い口コミは早く伝わる",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "口コミを誘発しやすくするための工夫を答えなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "口コミの誘発",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "伝えやすい",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "伝えたくなる",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "短く覚えやすく\n記憶しやすく",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "特徴の絞り込み",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "語るための材料の明示",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "オリジナルな品揃え",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "顧客意見の傾聴",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "小売り段階で付加価値を付ける方法を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "小売り段階での\n付加価値",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "形態の変換",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "商品のコーディネート",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "目に見えない価値の付加",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "目に見えない価値を付加する方法を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "目に見えない\n価値の付加",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "「サービス」の付加",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "「情報」の付加",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "「学び・体験」の提供",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "製品ライフサイクル別のプロモーションを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "ライフサイクル別\nプロモーション",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "導入期",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "成長期",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "成熟期",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "d",
+          "label": "衰退期",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "情報提供型",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "説得型",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "リマインダー\n（イメージ重視）型",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "d1",
+          "label": "CRM型",
+          "parentId": "d",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "ポイント・クーポン利用のメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "ポイント・クーポンの\nメリット",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "内的参照価格を下げない",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "再来店の促進",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "実践コストが比較的低い",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "コミュニケーション戦略におけるインターネットの優位性を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "インターネットの\n優位性",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "コストが低い",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "広域にプロモーション可能",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "リアルタイムに更新可能",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "発信と受信の\n双方向性を持つ",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "情報量に制限がない",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "SNSを用いることのメリット・デメリット・留意点を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "SNS",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "留意点",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "新規顧客獲得が可能",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "タイムリーな情報伝達",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "イニシャルコストが低い",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "運用コストがかかる",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "成果が出るには\n時間がかかる",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "炎上の可能性がある",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "計画的、慎重な実行",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c2",
+          "label": "適切な問い合わせ対応\n体制を構築する",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "ダイレクト・マーケティングの4Pにおけるメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "ダイレクト\nマーケティング",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "プロダクト",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "プレイス",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "プロモーション",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "d",
+          "label": "プライス",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "多品種の品揃えが可能",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "店舗不要",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "在庫削減",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "リアルタイムに可能",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c2",
+          "label": "CRMが容易",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "d1",
+          "label": "高利益率",
+          "parentId": "d",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "ソーシャルマーケティングの主な連携先を5つ挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "ソーシャル・\nマーケティング連携先",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "行政機関",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "異業種他社",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "同業種他社",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "非営利組織",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "消費者・顧客",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "プロモーション具体策の体系について分類しなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "プロモーション",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "新規",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "既存",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "デジタル",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "アナログ",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "デジタル",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "アナログ",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "a1x",
+          "label": "受信",
+          "parentId": "a1",
+          "isGiven": false
+        },
+        {
+          "id": "a1y",
+          "label": "発信",
+          "parentId": "a1",
+          "isGiven": false
+        },
+        {
+          "id": "a2x",
+          "label": "受信",
+          "parentId": "a2",
+          "isGiven": false
+        },
+        {
+          "id": "a2y",
+          "label": "発信",
+          "parentId": "a2",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "デジタルよりアナログが有効な場面を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "アナログが有効な場面",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "商品・サービスの\n認知が無い",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "自社の認知が無い",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "同業他社の数が多い",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "非探索型の商品",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "地域密着\n（商圏が狭い）",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "内的参照価格を下げない価格政策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "内的参照価格を下げない\n価格政策",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "クーポンの発行",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "ポイントの付与",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "バンドル販売",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "ターゲット選定のために検討が必要な理論を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "ターゲット選定の\n検討理論",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "市場細分化の基準",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "セグメントの有効要件",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "同一セグメント同一反応",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "ワントゥワン・マーケティング実行の要件を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "ワントゥワン・マーケ\nティング実行の要件",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "定性情報の存在",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "情報内容が詳しい",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "情報にアクセス可能",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "BtoB取引のメリット・デメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "BtoB取引",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "ブランドより実力",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "プロモーション費用は低い",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "長期的取引の可能性",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "買手の脅威がある可能性",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "利幅が薄い可能性",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "プロモーション施策問題に記述すべきコンテンツを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "プロモーション施策",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "ターゲット",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "メソッド",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "強調する強み等",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    }
+  ]
+}

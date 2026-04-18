@@ -1,0 +1,273 @@
+{
+  "section": {
+    "id": "strategy",
+    "name": "戦略・全体編",
+    "color": "#e94560"
+  },
+  "trees": [
+    {
+      "id": 1,
+      "title": "解答への一般的切り口（フレームワーク）を分類しなさい。",
+      "nodes": [
+        {"id":"r","label":"解答への\n一般的切り口","parentId":null,"isGiven":true},
+        {"id":"a","label":"定量","parentId":"r","isGiven":true},
+        {"id":"b","label":"定性","parentId":"r","isGiven":true},
+        {"id":"c","label":"時間軸","parentId":"a","isGiven":false},
+        {"id":"d","label":"空間軸","parentId":"a","isGiven":false},
+        {"id":"e","label":"長期・中期・短期","parentId":"c","isGiven":false},
+        {"id":"f","label":"新規（将来）\n既存（現在・過去）","parentId":"c","isGiven":false},
+        {"id":"g","label":"内部・外部","parentId":"d","isGiven":false},
+        {"id":"h","label":"業務区分・\n業務プロセス","parentId":"d","isGiven":false},
+        {"id":"i","label":"強み・弱み・\n機会・脅威","parentId":"b","isGiven":false},
+        {"id":"j","label":"メリット・\nデメリット","parentId":"b","isGiven":false}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "問題文のレイヤーの基本的分類を示しなさい。",
+      "nodes": [
+        {"id":"r","label":"レイヤーの分類","parentId":null,"isGiven":true},
+        {"id":"a","label":"環境変化","parentId":"r","isGiven":false},
+        {"id":"b","label":"戦略策定・分析","parentId":"r","isGiven":false},
+        {"id":"c","label":"戦術（機能戦略）","parentId":"r","isGiven":false}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "外部環境分析で検討すべき項目を挙げなさい。",
+      "nodes": [
+        {"id":"r","label":"外部環境","parentId":null,"isGiven":true},
+        {"id":"a","label":"マクロ","parentId":"r","isGiven":true},
+        {"id":"b","label":"ミクロ","parentId":"r","isGiven":true},
+        {"id":"c","label":"政治・法制（P）","parentId":"a","isGiven":false},
+        {"id":"d","label":"経済・景気（E）","parentId":"a","isGiven":false},
+        {"id":"e","label":"社会・人口動態（S）","parentId":"a","isGiven":false},
+        {"id":"f","label":"技術・情報化（T）","parentId":"a","isGiven":false},
+        {"id":"g","label":"5フォース（T）","parentId":"b","isGiven":false},
+        {"id":"h","label":"潜在顧客（O）","parentId":"b","isGiven":false}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "内部環境分析（SW）で検討すべき項目を挙げなさい。",
+      "nodes": [
+        {"id":"r","label":"内部環境","parentId":null,"isGiven":true},
+        {"id":"a","label":"内部","parentId":"r","isGiven":true},
+        {"id":"b","label":"外部","parentId":"r","isGiven":true},
+        {"id":"c","label":"ヒト","parentId":"a","isGiven":false},
+        {"id":"d","label":"カネ","parentId":"a","isGiven":false},
+        {"id":"e","label":"モノ","parentId":"a","isGiven":false},
+        {"id":"f","label":"情報","parentId":"a","isGiven":false},
+        {"id":"g","label":"ネットワーク","parentId":"a","isGiven":false},
+        {"id":"f1","label":"顧客情報","parentId":"f","isGiven":false},
+        {"id":"f2","label":"技術・ノウハウ","parentId":"f","isGiven":false},
+        {"id":"f3","label":"ブランド","parentId":"f","isGiven":false},
+        {"id":"f4","label":"企業文化","parentId":"f","isGiven":false},
+        {"id":"h","label":"既存顧客","parentId":"b","isGiven":false}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "環境分析に使用する主な理論を挙げなさい。",
+      "nodes": [
+        {"id":"r","label":"環境分析","parentId":null,"isGiven":true},
+        {"id":"a","label":"外部","parentId":"r","isGiven":true},
+        {"id":"b","label":"内部","parentId":"r","isGiven":true},
+        {"id":"c","label":"ファイブ・フォース","parentId":"a","isGiven":false},
+        {"id":"d","label":"PEST","parentId":"a","isGiven":false},
+        {"id":"e","label":"ヴァリュー・チェーン","parentId":"b","isGiven":false},
+        {"id":"f","label":"VRIO分析","parentId":"b","isGiven":false},
+        {"id":"g","label":"財務分析","parentId":"b","isGiven":false}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "与件文におけるコア・コンピタンスの判断基準を挙げなさい。",
+      "nodes": [
+        {"id":"r","label":"コア・\nコンピタンス","parentId":null,"isGiven":true},
+        {"id":"a","label":"基本","parentId":"r","isGiven":true},
+        {"id":"b","label":"応用","parentId":"r","isGiven":true},
+        {"id":"c","label":"人の能力","parentId":"a","isGiven":false},
+        {"id":"d","label":"歴史の積み重ね","parentId":"a","isGiven":false},
+        {"id":"e","label":"情報・ノウハウ\n（暗黙知）","parentId":"a","isGiven":false},
+        {"id":"f","label":"知的財産権","parentId":"a","isGiven":false},
+        {"id":"g","label":"ネットワーク","parentId":"b","isGiven":false},
+        {"id":"h","label":"ブランド","parentId":"b","isGiven":false},
+        {"id":"i","label":"組織風土","parentId":"b","isGiven":false}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "商品特性を考えるにあたって検討すべき項目を挙げなさい。",
+      "nodes": [
+        {"id":"r","label":"商品特性","parentId":null,"isGiven":true},
+        {"id":"a","label":"競争状況","parentId":"r","isGiven":false},
+        {"id":"b","label":"商品の分類","parentId":"r","isGiven":false},
+        {"id":"c","label":"5フォース","parentId":"a","isGiven":false},
+        {"id":"d","label":"本質・付随","parentId":"b","isGiven":false},
+        {"id":"e","label":"必需品・嗜好品","parentId":"b","isGiven":false},
+        {"id":"f","label":"最寄品・買回品・\n専門品","parentId":"b","isGiven":false},
+        {"id":"g","label":"差別化の難易","parentId":"b","isGiven":false},
+        {"id":"h","label":"産業財・消費財","parentId":"b","isGiven":false}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "市場浸透戦略を採る時の検討事項を挙げなさい。",
+      "nodes": [
+        {"id":"r","label":"市場浸透","parentId":null,"isGiven":true},
+        {"id":"a","label":"既存顧客","parentId":"r","isGiven":false},
+        {"id":"b","label":"新規顧客開拓","parentId":"r","isGiven":false},
+        {"id":"c","label":"CRM","parentId":"a","isGiven":false},
+        {"id":"d","label":"内部","parentId":"b","isGiven":false},
+        {"id":"e","label":"外部","parentId":"b","isGiven":false},
+        {"id":"f","label":"プロモーション","parentId":"d","isGiven":false},
+        {"id":"g","label":"プレイス","parentId":"d","isGiven":false},
+        {"id":"h","label":"競合状況","parentId":"e","isGiven":false},
+        {"id":"i","label":"潜在顧客","parentId":"e","isGiven":false},
+        {"id":"j","label":"見込顧客","parentId":"e","isGiven":false}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "新商品・サービスの開発戦略の検討事項を挙げなさい。",
+      "nodes": [
+        {"id":"r","label":"新商品開発","parentId":null,"isGiven":true},
+        {"id":"a","label":"商品ミックス","parentId":"r","isGiven":false},
+        {"id":"b","label":"内部","parentId":"r","isGiven":false},
+        {"id":"c","label":"外部","parentId":"r","isGiven":false},
+        {"id":"d","label":"ブランド戦略","parentId":"a","isGiven":false},
+        {"id":"e","label":"商品ライン（幅）","parentId":"a","isGiven":false},
+        {"id":"f","label":"商品アイテム（深さ）","parentId":"a","isGiven":false},
+        {"id":"g","label":"人","parentId":"b","isGiven":false},
+        {"id":"h","label":"モノ","parentId":"b","isGiven":false},
+        {"id":"i","label":"カネ","parentId":"b","isGiven":false},
+        {"id":"j","label":"情報","parentId":"b","isGiven":false},
+        {"id":"k","label":"ニーズ","parentId":"c","isGiven":false},
+        {"id":"l","label":"ターゲット","parentId":"c","isGiven":false},
+        {"id":"m","label":"競合状況","parentId":"c","isGiven":false}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "新市場開拓戦略を採る時の検討事項を挙げなさい。",
+      "nodes": [
+        {"id":"r","label":"新市場開拓","parentId":null,"isGiven":true},
+        {"id":"a","label":"有効性","parentId":"r","isGiven":false},
+        {"id":"b","label":"実行可能性","parentId":"r","isGiven":false},
+        {"id":"c","label":"方向性","parentId":"r","isGiven":false},
+        {"id":"d","label":"外部","parentId":"r","isGiven":false},
+        {"id":"e","label":"測定可能性","parentId":"a","isGiven":false},
+        {"id":"f","label":"到達可能性","parentId":"a","isGiven":false},
+        {"id":"g","label":"実質可能性","parentId":"a","isGiven":false},
+        {"id":"h","label":"垂直展開","parentId":"c","isGiven":false},
+        {"id":"i","label":"水平展開","parentId":"c","isGiven":false},
+        {"id":"h1","label":"新規商圏","parentId":"h","isGiven":false},
+        {"id":"i1","label":"新規顧客層","parentId":"i","isGiven":false},
+        {"id":"j","label":"ニーズ","parentId":"d","isGiven":false},
+        {"id":"k","label":"ターゲット","parentId":"d","isGiven":false},
+        {"id":"l","label":"競合状況","parentId":"d","isGiven":false}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "（関連）多角化戦略を採る場合の検討事項を挙げなさい。",
+      "nodes": [
+        {"id":"r","label":"多角化戦略","parentId":null,"isGiven":true},
+        {"id":"a","label":"必要性","parentId":"r","isGiven":false},
+        {"id":"b","label":"実現可能性","parentId":"r","isGiven":false},
+        {"id":"c","label":"成長","parentId":"a","isGiven":false},
+        {"id":"d","label":"リスクヘッジ","parentId":"a","isGiven":false},
+        {"id":"e","label":"スラック利用","parentId":"a","isGiven":false},
+        {"id":"c1","label":"機会を捉える","parentId":"c","isGiven":false},
+        {"id":"c2","label":"脅威を回避する","parentId":"c","isGiven":false},
+        {"id":"f","label":"内部","parentId":"b","isGiven":false},
+        {"id":"g","label":"外部","parentId":"b","isGiven":false},
+        {"id":"f1","label":"人","parentId":"f","isGiven":false},
+        {"id":"f2","label":"カネ","parentId":"f","isGiven":false},
+        {"id":"f3","label":"モノ","parentId":"f","isGiven":false},
+        {"id":"f4","label":"情報（ノウハウ）","parentId":"f","isGiven":false},
+        {"id":"g1","label":"競合状況","parentId":"g","isGiven":false},
+        {"id":"g2","label":"ニーズ","parentId":"g","isGiven":false},
+        {"id":"g3","label":"ターゲット","parentId":"g","isGiven":false},
+        {"id":"g4","label":"仕入・販路","parentId":"g","isGiven":false}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "M&Aの可否について検討する事項を挙げなさい。",
+      "nodes": [
+        {"id":"r","label":"M&A\n（可否の判断）","parentId":null,"isGiven":true},
+        {"id":"a","label":"シナジー","parentId":"r","isGiven":true},
+        {"id":"b","label":"組織文化","parentId":"r","isGiven":false},
+        {"id":"c","label":"財務","parentId":"r","isGiven":false},
+        {"id":"d","label":"内部資源","parentId":"r","isGiven":false},
+        {"id":"e","label":"販売シナジー","parentId":"a","isGiven":false},
+        {"id":"f","label":"生産シナジー","parentId":"a","isGiven":false},
+        {"id":"g","label":"管理シナジー","parentId":"a","isGiven":false},
+        {"id":"h","label":"投資シナジー","parentId":"a","isGiven":false}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "アライアンスのメリット・デメリット・留意点を挙げなさい。",
+      "nodes": [
+        {"id":"r","label":"アライアンス","parentId":null,"isGiven":true},
+        {"id":"a","label":"メリット","parentId":"r","isGiven":true},
+        {"id":"b","label":"デメリット","parentId":"r","isGiven":true},
+        {"id":"c","label":"留意点","parentId":"r","isGiven":true},
+        {"id":"d","label":"スキルシェア","parentId":"a","isGiven":false},
+        {"id":"e","label":"リスク分散","parentId":"a","isGiven":false},
+        {"id":"f","label":"販売網の相互利用","parentId":"a","isGiven":false},
+        {"id":"g","label":"業界標準獲得の可能性","parentId":"a","isGiven":false},
+        {"id":"h","label":"情報・技術・\nノウハウ漏洩リスク","parentId":"b","isGiven":false},
+        {"id":"i","label":"戦略の幅を\n狭めるリスク","parentId":"b","isGiven":false},
+        {"id":"j","label":"契約","parentId":"c","isGiven":false},
+        {"id":"k","label":"意思疎通","parentId":"c","isGiven":false},
+        {"id":"j1","label":"秘密保持","parentId":"j","isGiven":false},
+        {"id":"j2","label":"撤退","parentId":"j","isGiven":false},
+        {"id":"j3","label":"商品化","parentId":"j","isGiven":false}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "協業による新規事業開発の検討項目を挙げなさい。",
+      "nodes": [
+        {"id":"r","label":"協業による\n新規事業開発","parentId":null,"isGiven":true},
+        {"id":"a","label":"（なにを）\n自社の強み（資源）","parentId":"r","isGiven":false},
+        {"id":"b","label":"（なにを）\n協業の強み（資源）","parentId":"r","isGiven":false},
+        {"id":"c","label":"（だれと）\n協業者の選択","parentId":"r","isGiven":false},
+        {"id":"d","label":"（だれに）顧客","parentId":"r","isGiven":false},
+        {"id":"e","label":"（どのように）\nチャネル","parentId":"r","isGiven":false},
+        {"id":"d1","label":"新規","parentId":"d","isGiven":false},
+        {"id":"d2","label":"既存","parentId":"d","isGiven":false},
+        {"id":"e1","label":"新規","parentId":"e","isGiven":false},
+        {"id":"e2","label":"既存","parentId":"e","isGiven":false}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "営業拠点の活用法について考えられる所を挙げなさい。",
+      "nodes": [
+        {"id":"r","label":"営業拠点活用","parentId":null,"isGiven":true},
+        {"id":"a","label":"受信","parentId":"r","isGiven":false},
+        {"id":"b","label":"発信","parentId":"r","isGiven":false},
+        {"id":"c","label":"ニーズの把握","parentId":"a","isGiven":false},
+        {"id":"d","label":"問題・課題の発見","parentId":"a","isGiven":false},
+        {"id":"e","label":"新規顧客開拓","parentId":"b","isGiven":false},
+        {"id":"f","label":"ブランド認知","parentId":"b","isGiven":false}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "SWOT分析で弱み（W）を選択する時の留意点を挙げなさい。",
+      "nodes": [
+        {"id":"r","label":"W選択の留意点","parentId":null,"isGiven":true},
+        {"id":"a","label":"現象ではなく\n真因優先","parentId":"r","isGiven":false},
+        {"id":"b","label":"短期では\n変わりにくいもの","parentId":"r","isGiven":false},
+        {"id":"c","label":"設問との\n関係性の高さ","parentId":"r","isGiven":false},
+        {"id":"d","label":"脅威（外部）を\n記述しない","parentId":"r","isGiven":false}
+      ]
+    }
+  ]
+}

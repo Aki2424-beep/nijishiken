@@ -1,0 +1,2247 @@
+{
+  "section": {
+    "id": "org",
+    "name": "組織編",
+    "color": "#6c5ce7"
+  },
+  "trees": [
+    {
+      "id": 1,
+      "title": "組織設計時に考慮すべき原則を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "組織設計時の原則",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "専門化の原則",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "権限責任一致の原則",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "統制範囲の原則",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "命令一元制の原則",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "例外の原則",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "機能別組織のメリット・デメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "機能別組織",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "効率的",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "技術ノウハウの\n蓄積がしやすい",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "トップの統制が容易",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "f",
+          "label": "セクショナリズム",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "g",
+          "label": "環境変化への\n対応が難しい",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "h",
+          "label": "トップの負荷が高い",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "マトリックスのメリット・デメリットについて答えなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "マトリックス組織",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "人材の効率的利用",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "情報共有",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "トップの負担軽減",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "f",
+          "label": "ワンマン・ツーボス\n（部下側）",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "g",
+          "label": "対立（管理者側）",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "ラインアンドスタッフ組織のメリット・デメリット及び克服策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "ラインアンド\nスタッフ組織",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "克服策",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "d",
+          "label": "命令一元化の確保",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "スタッフの専門知識の\n活用",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "f",
+          "label": "間接経費の増大",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "g",
+          "label": "スタッフとラインの\n対立・越権行為",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "h",
+          "label": "スタッフ・ライン間の\n適宜交流",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "i",
+          "label": "権限についての\n明確なルール設定",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "j",
+          "label": "スタッフについては\n必要に応じて外注を利用",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "事業部制組織のメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "事業部制メリット",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "利益責任の明確化",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "事業環境に迅速に対応",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "後継者育成",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "外部連携が容易",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "事業部制組織のデメリット及び克服策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "事業部制組織",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリットの克服策",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "セクショナリズム",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "経営資源重複",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "短期業績志向",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "f",
+          "label": "新しいビジネスに\n対処しにくい",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "g",
+          "label": "事業部間・部門長の\n人事交流",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "h",
+          "label": "評価に長期的な\n項目を設ける",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "社内ベンチャー制度のメリットを答えなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "社内ベンチャー",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "会社側",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "従業員側",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "積極的な企業文化の醸成",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "優秀な人材の囲い込み",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "新規収益源の確保",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "f",
+          "label": "成功・失敗の\nノウハウ蓄積",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "g",
+          "label": "ブランド・信用の利用",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "h",
+          "label": "資金の確保",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "i",
+          "label": "必要人材の利用",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "チームビルディングにおいて留意すべき事項を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "チームビルディング\n時の留意点",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "目的の明確化と共有",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "コミュニケーションの\n促進",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "貢献意欲",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "多様なメンバー選定",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "期待・役割の明確化",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "d1",
+          "label": "定量的多様性\n（年齢・部署等）",
+          "parentId": "d",
+          "isGiven": false
+        },
+        {
+          "id": "d2",
+          "label": "定性的多様性\n（性格等）",
+          "parentId": "d",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "沈滞化した組織の活性化策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "沈滞化した組織の\n活性化策",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "ジュニアボード\n制度の導入",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "小組織化（権限移譲）",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "社内公募制の実施",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "提案制度の実施",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "組織文化変革のための留意点を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "組織文化変革の留意点",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "トップ主導による変革",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "丁寧な説明と合意形成",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "長期的・段階的取組み",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "モラール維持・向上を図る場合の検討項目を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "モラール向上",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "共通目的",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "貢献意欲",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "コミュニケーション",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "存在するか",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "伝えているか",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "動機づけ要因",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "衛生要因",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "社員←→社員\n（横方向）",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c2",
+          "label": "社員←→トップ\n（縦方向）",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "インターナル・マーケティング強化に向けた実施事項を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "インターナル・\nマーケティング",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "モチベーション・\nマネジメント",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "能力開発",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "標準化・マニュアル化",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "能力開発3本柱の留意点を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "能力開発の3本柱",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "OJT",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "OFF-JT",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "自己啓発支援",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "人事部門との共通認識",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "上司の評価項目に\n教育を入れる",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "体系的・計画的な実施",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "現場の必要性との乖離",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "本人の能力との乖離",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "フィードバックの\n機会の提供",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "ハックマン・オルダムモデルの5つの職務特性を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "ハックマン・オルダム\nモデルの職務特性",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "有意義の実感",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "責任の実感",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "結果の理解",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "職務の重要性",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "職務の完結性",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "技能の多様性",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "自律性",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "フィードバック",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "従業員に職務重要性を理解させる方策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "職務重要性の認識向上",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "事業計画への参画促進",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "トップ・上司からの\n役割・期待表明",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "職務の完結性を向上させる方策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "職務完結性向上の方策",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "職務",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "組織構造",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "職務充実（権限委譲）",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "事業部制・\nプロジェクトチーム等",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "従業員の技能の多様性向上のための方策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "従業員技能の\n多様性向上",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "教育",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "経験",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "OJT",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "OFF-JT",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "自己啓発支援",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "職務拡大",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "ジョブローテーション",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "自律性向上についての方策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "自律性向上",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "異動に希望を\n入れる仕組み",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "CDP",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "権限委譲",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "参加・委任型\nリーダーシップ",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "提案制度",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "自己申告制度",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "社内公募",
+          "parentId": "a",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "フィードバック活性化についての方策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "フィードバックの\n活性化",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "定性情報",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "定量情報",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "顧客・取引先からの\n反応を伝える",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "上司やトップからの\n叱咤・激励・賞賛",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "本人の成長度・意義",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "表彰制度",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "生産性や貢献度の数字が\n認識できる仕組",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "適正な人事評価を行うために検討すべき事項を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "適正な人事評価",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "適正な評価基準",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "適正な制度運用",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "客観的な評価基準",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "妥当な評価基準",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "公平な評価基準",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "公表",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "多面的評価",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "考課者訓練",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b4",
+          "label": "360°評価",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b5",
+          "label": "業績評価",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b6",
+          "label": "能力評価",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b7",
+          "label": "情意評価",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "SL理論の部下の4パターンとリーダーシップを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "SL理論の\nリーダーシップ",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "成熟度",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "低い",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "やや低い",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "やや高い",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a4",
+          "label": "高い",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "指示型リーダーシップ",
+          "parentId": "a1",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "説得型リーダーシップ",
+          "parentId": "a2",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "参加型リーダーシップ",
+          "parentId": "a3",
+          "isGiven": false
+        },
+        {
+          "id": "b4",
+          "label": "委任型リーダーシップ",
+          "parentId": "a4",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "目標を指示する場合の注意点を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "目標指示（設定）\nの注意点",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "計測可能性",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "到達可能性",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "達成期限の設定",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "関係性の明示",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d1",
+          "label": "企業への貢献度",
+          "parentId": "d",
+          "isGiven": false
+        },
+        {
+          "id": "d2",
+          "label": "本人の成長",
+          "parentId": "d",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "成果主義賃金導入の留意点を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "成果主義賃金導入\nの留意点",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "基準",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "運用",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "公平・妥当・\n客観的な基準",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "目標設定への参画",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "評価過程の透明性",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "長期的視点で運用\n（継続的に改善する）",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "モチベーションマネジメントの方策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "モチベーション\nマネジメント",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "衛生要因",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "動機づけ要因",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "人事評価改善\n（賃金・昇進）",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "福利厚生充実\n（育休等）",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "悩み解決制度\n（カウンセリング等）",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a4",
+          "label": "意思疎通促進策\n（上下・左右）",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "職務設計\n（ハックマン・オルダム\nモデルへ）",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "非正規社員のモチベーションマネジメントの方策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "非正社員の活用",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "衛生要因",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "動機づけ要因",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "フレキシブルな\n出勤時間",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "等級別賃金",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "能力手当・\n一時金の支給",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a4",
+          "label": "悩み解消システム",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "正社員登用制度",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "職場リーダー制",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "提案制度",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b4",
+          "label": "表彰制度",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "高齢者活用のメリット・デメリット及び克服策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "高齢者活用",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "デメリットの克服策",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "知識・経験・\nノウハウの利用",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "再雇用等の場合\n人件費が節約できる",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "保守化により改革の\n障害となる可能性",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "下の世代の\nモラール低下",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "役職定年制・専門職制等\nでポストを空ける",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c2",
+          "label": "トップ自ら\n真摯な説得・説明",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "女性従業員を活用するための施策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "女性活用の施策",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "在宅勤務促進（場所）",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "フレキシブルな\n出勤時間（時間）",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "復職しやすい仕組み\n（制度）",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "OFF-JT等による\n意識改革（意識）",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "各種の制度を効率的に運用するための一般的注意点を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "制度の効率的運用",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "基準",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "制度運用",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "客観的な基準",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "妥当な基準",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "公平性の確保",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "透明性の確保",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "提案制度を運用するための留意点を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "提案制度運用の留意点",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "提案しやすい仕組み",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "提案の評価・\nフィードバック",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "報酬",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "経済的報酬",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c2",
+          "label": "非経済的報酬",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "「所有と経営の分離」のメリット・デメリット・克服策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "所有と経営の分離",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "克服策",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "経営の専門家の\n能力の利用",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "経営者の暴走の阻止",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "短期業績主眼に\nなる可能性",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "所有と支配の分離が\n起こる可能性",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "コーシャスシフト",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "外部取締役",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c2",
+          "label": "社員持株会",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "オーナー（同族）企業のメリット・デメリット・克服策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "オーナー企業",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "克服策",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "長期的視点での経営",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "果敢な経営判断",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "経営者の暴走",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "従業員の\nモチベーション低下",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "外部取締役",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c2",
+          "label": "非親族の登用",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "M&Aの形態とメリット・デメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "M&A",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "合併",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "その他",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "合併メリット",
+          "parentId": "a",
+          "isGiven": true
+        },
+        {
+          "id": "a2",
+          "label": "合併デメリット",
+          "parentId": "a",
+          "isGiven": true
+        },
+        {
+          "id": "b1",
+          "label": "その他メリット",
+          "parentId": "b",
+          "isGiven": true
+        },
+        {
+          "id": "b2",
+          "label": "その他デメリット",
+          "parentId": "b",
+          "isGiven": true
+        },
+        {
+          "id": "c1",
+          "label": "機動的な人員異動",
+          "parentId": "a1",
+          "isGiven": false
+        },
+        {
+          "id": "c2",
+          "label": "多様な人材の融合で\n創造性を発揮",
+          "parentId": "a1",
+          "isGiven": false
+        },
+        {
+          "id": "d1",
+          "label": "組織文化の融合に\n時間がかかる",
+          "parentId": "a2",
+          "isGiven": false
+        },
+        {
+          "id": "d2",
+          "label": "待遇の落差による\nモラール低下",
+          "parentId": "a2",
+          "isGiven": false
+        },
+        {
+          "id": "e1",
+          "label": "コンフリクトを\n回避できる",
+          "parentId": "b1",
+          "isGiven": false
+        },
+        {
+          "id": "e2",
+          "label": "事前の待遇を\n維持できる",
+          "parentId": "b1",
+          "isGiven": false
+        },
+        {
+          "id": "f1",
+          "label": "機動的な人員配置が\n出来ない",
+          "parentId": "b2",
+          "isGiven": false
+        },
+        {
+          "id": "f2",
+          "label": "悪い組織文化の場合\n改善が困難",
+          "parentId": "b2",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "新卒採用と中途採用のメリット・デメリット・克服策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "採用",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "新卒採用",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "中途採用",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "新卒メリット",
+          "parentId": "a",
+          "isGiven": true
+        },
+        {
+          "id": "a2",
+          "label": "新卒デメリット",
+          "parentId": "a",
+          "isGiven": true
+        },
+        {
+          "id": "a3",
+          "label": "新卒克服策",
+          "parentId": "a",
+          "isGiven": true
+        },
+        {
+          "id": "b1",
+          "label": "中途メリット",
+          "parentId": "b",
+          "isGiven": true
+        },
+        {
+          "id": "b2",
+          "label": "中途デメリット",
+          "parentId": "b",
+          "isGiven": true
+        },
+        {
+          "id": "b3",
+          "label": "中途克服策",
+          "parentId": "b",
+          "isGiven": true
+        },
+        {
+          "id": "c1",
+          "label": "組織文化になじみやすい",
+          "parentId": "a1",
+          "isGiven": false
+        },
+        {
+          "id": "c2",
+          "label": "思考の多様化",
+          "parentId": "a1",
+          "isGiven": false
+        },
+        {
+          "id": "d1",
+          "label": "戦力化に時間・\n費用がかかる",
+          "parentId": "a2",
+          "isGiven": false
+        },
+        {
+          "id": "e1",
+          "label": "教育体制の整備",
+          "parentId": "a3",
+          "isGiven": false
+        },
+        {
+          "id": "f1",
+          "label": "意識改革の可能性",
+          "parentId": "b1",
+          "isGiven": false
+        },
+        {
+          "id": "f2",
+          "label": "即戦力",
+          "parentId": "b1",
+          "isGiven": false
+        },
+        {
+          "id": "g1",
+          "label": "組織文化に合わない\n可能性",
+          "parentId": "b2",
+          "isGiven": false
+        },
+        {
+          "id": "g2",
+          "label": "思考の画一化",
+          "parentId": "b2",
+          "isGiven": false
+        },
+        {
+          "id": "h1",
+          "label": "トップ・上司による\n指導・合意形成",
+          "parentId": "b3",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "子会社であることのメリット・デメリット・克服策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "子会社",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "克服策",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "安定取引",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "親会社のブランドを\n活用できる",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "親会社からの支援",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "主体的経営が困難",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "親会社の業績に\n左右される",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "モチベーション低下",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "独自の取引先開拓",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c2",
+          "label": "社長はプロパー社員\nから選任する",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "関連会社化のメリット・デメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "関連会社化",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "人事戦略の最適化",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "利益責任明確化",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "後継者育成",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a4",
+          "label": "トップの負担軽減",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "機動的な人員配置が不可",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "規模・範囲の経済が\n効かない",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "円滑な事業承継を行うために必要な事項を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "円滑な事業承継",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "後継者の決定",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "後継者教育",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "周囲への説明",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "後継者中心の組織作り",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "親族内",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "親族外",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "意識面",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "能力面",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "内部",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c2",
+          "label": "外部",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "d1",
+          "label": "漸増的権限移譲",
+          "parentId": "d",
+          "isGiven": false
+        },
+        {
+          "id": "d2",
+          "label": "バックアップ体制の構築",
+          "parentId": "d",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "事例Ⅰの分析問題の主要4パターンを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "事例Ⅰ分析問題",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "SWOT系分析",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "外部環境変化",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "戦略の分析",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "商品（市場）分析",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "事例Ⅰにおける「成長戦略」の主な検討項目を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "成長戦略の検討項目",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "ドメイン",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "内部資源",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "シナジー効果",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "内部 or 外部",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "チャレンジ精神の維持・向上のための具体的施策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "チャレンジ精神の\n維持・向上",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "権限委譲",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "加点式の業績評価",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "提案制度導入",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "自己申告制度",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "従業員の独創性向上のための具体的施策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "独創性向上",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "OFF-JT",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "ナレッジマネジメント\n（情報共有）",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "積極的な外部交流",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "高次学習の知識",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "多様な知識習得",
+          "parentId": "a",
+          "isGiven": false
+        }
+      ]
+    }
+  ]
+}

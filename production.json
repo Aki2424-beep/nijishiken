@@ -1,0 +1,1527 @@
+{
+  "section": {
+    "id": "production",
+    "name": "生産・技術編",
+    "color": "#fdcb6e"
+  },
+  "trees": [
+    {
+      "id": 1,
+      "title": "事例Ⅲにおける内部環境分析の検討事項を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "内部環境分析",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "人",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "機械",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "物",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "方法・ノウハウ",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "情報",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "事例Ⅲにおける収益性向上の方策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "収益性向上",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "販売面",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "生産面",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "高利益率製品にシフト",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "赤字製品廃止を検討",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "新製品開発・販売",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "人件費削減",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "材料費削減",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "その他費用削減",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "生産計画の作成についての3つの観点と留意点を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "生産計画",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "タイミング",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "計画者",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "内容",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "計画作成頻度を上げる",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "修正の機会を設ける",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "全体を統括できる者\nが作成",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "専任部署または\n専任者を置く",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "実需の反映",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c2",
+          "label": "全工程・全製品について\n漏れなく作成",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "生産統制面での検討項目と留意点を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "生産統制",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "進捗管理",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "現品管理",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "余力管理",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "予実の差異分析と\n適切な対策",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "所在・保管・数量把握",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "負荷状態と現有能力\nとの差を把握",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "品質トラブルが生じる原因を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "品質トラブルの原因",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "従業員教育の不足",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "従来慣行への依存・\n馴れ合い",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "原因究明・\n再発防止策不徹底",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "設備投資の不足",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "作業標準化の遅れ",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "f",
+          "label": "品質検査の不備",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "見込生産と受注生産の管理ポイントを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "管理ポイント",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "見込生産",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "受注生産",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "製品在庫管理",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "正確な需要予測",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "納期管理・\n納期短縮要請対応",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "仕様変更対応",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "設計・調達・作業の段階で納期短縮を図る方策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "納期短縮",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "設計",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "調達",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "作業",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "CADシステム導入",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "コンカレントエンジニアリング\nによるリードタイム短縮",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "調達先との情報共有や管理\nによるリードタイム短縮",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "IEによる作業改善",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c2",
+          "label": "ラインバランシング",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c3",
+          "label": "段取り改善",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c4",
+          "label": "ネック工程管理",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c5",
+          "label": "多能工化・多工程持ち",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "設計・調達・作業の段階で在庫削減を図る方策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "仕掛品在庫削減",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "設計",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "調達",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "作業",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "原材料、部品の\n共通化・標準化",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "ABC管理と適切な\n発注方式",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "生産計画と実在庫に\n基づいた調達",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "ラインバランシングによる\n仕掛品在庫削減",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "設計・調達・作業の段階で製造原価低減を図る方策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "原価低減",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "設計",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "調達",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "c",
+          "label": "作業",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "原材料・部品の\n標準化・共通化",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "組立の容易さ・歩留り\nの良さを考慮した設計",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "調達先の選択",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "原材料・部品の\n標準化・共通化",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "IEによる作業改善",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "c2",
+          "label": "外注の適切な利用",
+          "parentId": "c",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "外作のメリット・デメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "外作",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "専門性の活用",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "設備投資が不要",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "需要変動への対応",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "外注管理の負担",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "機密漏えいの危険",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "ノウハウの蓄積が困難",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "内作のメリット・デメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "内作",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "ノウハウ蓄積",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "情報流失防止",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "差別化の可能性",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "開発リードタイム\n長期化の可能性",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "開発失敗リスク",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "設備投資が必要",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "外注管理の要点と注意すべきポイントを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "外注管理",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "納期",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "品質",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "コスト",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "機密",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "定期的な進捗確認",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "外注先の余力確認",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "早目の発注・内示",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "明確な品質基準設定と\nチェック体制の確立",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "製造ノウハウ等の教育",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "適正な価格設定",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "d1",
+          "label": "秘密保持契約",
+          "parentId": "d",
+          "isGiven": false
+        },
+        {
+          "id": "d2",
+          "label": "情報のブラックボックス化",
+          "parentId": "d",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "セル生産方式のメリット・デメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "セル生産",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "モチベーションアップ",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "多品種生産対応",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "仕掛品在庫削減",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "作業者間での\n量・質のバラツキ",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "作業者に高い能力\nが必要",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "ライン生産方式のメリット・デメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "ライン生産",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "専門化による生産性向上",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "少品種多量生産では\n生産性が高い",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "モチベーション・ダウン",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "1つの工程の不具合が\nライン全体に影響",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "多品種生産に\n対応しづらい",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "一人生産方式を成功させるための留意点を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "一人生産方式の\n成功の留意点",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "標準化・マニュアル化",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "能力開発",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "モチベーション\nマネジメント",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "ネック工程管理の対応策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "ネック工程管理",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "IEによる改善",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "既存設備・工程の改良",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "教育訓練",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "新設備の導入",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "人員の増員",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "f",
+          "label": "操業時間の増加",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "作業方法・スピードのバラツキを減らす改善策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "作業方法・スピードの\nバラツキ改善策",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "IEによる動作研究",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "IEによる標準時間の設定",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "作業方法の標準化・\nマニュアル化",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "教育・訓練",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "設備保全の手法を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "設備保全",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "事後保全",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "予防保全",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "改良保全",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "保全予防",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "発見した故障を取り除く",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "定期保全",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "予知保全",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "c1",
+          "label": "故障しにくい設備への改善",
+          "parentId": "c",
+          "isGiven": false
+        },
+        {
+          "id": "d1",
+          "label": "故障しにくい設備設計",
+          "parentId": "d",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "原材料在庫を持つことのメリット・デメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "原材料在庫",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "販売機会損失の防止",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "まとめ発注による\n発注費用の削減",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "不測事態への対応",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a4",
+          "label": "納期短縮",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "死蔵在庫の発生可能性",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "キャッシュフローの悪化",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "管理費用増加",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "原材料や仕掛品が散在している状況の改善策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "原材料・仕掛品散在の\n改善策",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "5Sの徹底",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "倉庫・置き場の確保・改善",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "SLP等による\n工場レイアウト再設計",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "製品の過剰在庫が発生する主な要因を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "製品過剰在庫の\n発生要因",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "需要予測の精度が低い",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "ロットサイズが大きい",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "ロットサイズが画一的",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "各製品の適正在庫数を\n設定していない",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "段取り時間短縮の手順を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "段取時間短縮",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "ムダ取り",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "内段取りの外段取り化",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "内段取りの改善",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "外段取りの改善",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "OEM供給（受託側）のメリット・デメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "OEM",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "メリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "b",
+          "label": "デメリット",
+          "parentId": "r",
+          "isGiven": true
+        },
+        {
+          "id": "a1",
+          "label": "技術力の向上・蓄積",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "供給先のブランド力・\n販売力の利用",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "製造に経営資源を\n集中できる",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "供給先の交渉力増大",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "自社のブランド力・販売力\nを育成できない",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "消費者の声が届かない",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b4",
+          "label": "契約打ち切りのリスク",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "直販のメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "直販のメリット",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "営業力強化（人）",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "市場対応・消費者対応\n（物・情報）",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "高利益率（金）",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "ブランド育成",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "直販に進出する場合の留意点を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "直販進出の留意点",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "消費者とのコミュニ\nケーションと社内情報共有",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "営業力強化",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "c",
+          "label": "販売管理体制の構築",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "d",
+          "label": "ブランド育成",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "e",
+          "label": "IT活用",
+          "parentId": "r",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "営業力強化の方策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "営業力強化",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "ソフト",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "ハード",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "教育・訓練",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "標準化・マニュアル化",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a11",
+          "label": "OJT",
+          "parentId": "a1",
+          "isGiven": false
+        },
+        {
+          "id": "a12",
+          "label": "OFF-JT",
+          "parentId": "a1",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "IT活用",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "営業部門または\n営業専任者を設置",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "プロジェクトチーム発足",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "円滑な技術承継を行うための方策を挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "技術承継",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "中長期",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "短期",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "教育・訓練",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "標準化・マニュアル化",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "マイスター制度",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a11",
+          "label": "OJT",
+          "parentId": "a1",
+          "isGiven": false
+        },
+        {
+          "id": "a12",
+          "label": "OFF-JT",
+          "parentId": "a1",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "再雇用",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "定年延長",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "CAD／CAM導入のメリットを挙げなさい。",
+      "nodes": [
+        {
+          "id": "r",
+          "label": "CAD／CAM\n導入のメリット",
+          "parentId": null,
+          "isGiven": true
+        },
+        {
+          "id": "a",
+          "label": "工数削減",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "b",
+          "label": "品質向上",
+          "parentId": "r",
+          "isGiven": false
+        },
+        {
+          "id": "a1",
+          "label": "設計時間の短縮",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a2",
+          "label": "NCプログラムの自動生成",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a3",
+          "label": "製品仕様の打合せ・\n確認の削減",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a4",
+          "label": "設計データの\nライブラリ化",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "a5",
+          "label": "流用設計が容易",
+          "parentId": "a",
+          "isGiven": false
+        },
+        {
+          "id": "b1",
+          "label": "設計データや完成\nイメージの共有",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b2",
+          "label": "バラツキや誤差の削減",
+          "parentId": "b",
+          "isGiven": false
+        },
+        {
+          "id": "b3",
+          "label": "設計の柔軟な修正・変更",
+          "parentId": "b",
+          "isGiven": false
+        }
+      ]
+    }
+  ]
+}
