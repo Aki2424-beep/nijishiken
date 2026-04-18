@@ -22,9 +22,11 @@ html,body{height:100%;width:100%;overflow:hidden;font-family:'Helvetica Neue','H
 .node.blank{background:var(--blank);color:#666;border:2px dashed #555;}
 .node.blank.active{border:2px solid var(--active);box-shadow:0 0 12px rgba(233,69,96,0.4);animation:pulse 1.2s infinite;}
 .node.filled{background:var(--filled);color:#fff;border:2px solid #00d2a0;}
-.node.wrong-anim{animation:shake 0.4s;border-color:var(--wrong)!important;background:var(--wrong)!important;}
+.node.filled.mistake{background:#8a5a2b;border-color:#fdcb6e;}
+.node.filled.mistake::after{content:'✕';position:absolute;top:-7px;right:-7px;background:var(--wrong);color:#fff;font-size:9px;width:16px;height:16px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;line-height:1;border:2px solid var(--bg);}
+.node.wrong-anim{animation:shake 0.25s;border-color:var(--wrong)!important;box-shadow:0 0 10px rgba(214,48,49,0.35)!important;}
 @keyframes pulse{0%,100%{box-shadow:0 0 8px rgba(233,69,96,0.3);}50%{box-shadow:0 0 16px rgba(233,69,96,0.6);}}
-@keyframes shake{0%,100%{transform:translateX(0);}25%{transform:translateX(-6px);}75%{transform:translateX(6px);}}
+@keyframes shake{0%,100%{transform:translateX(0);}25%{transform:translateX(-3px);}75%{transform:translateX(3px);}}
 .word-bank{flex-shrink:0;background:var(--card);border-top:2px solid var(--highlight);padding:8px;min-height:70px;max-height:140px;overflow-y:auto;}
 .word-bank-label{font-size:10px;color:var(--text2);margin-bottom:4px;letter-spacing:1px;}
 .word-bank-items{display:flex;flex-wrap:wrap;gap:5px;}
@@ -64,6 +66,22 @@ html,body{height:100%;width:100%;overflow:hidden;font-family:'Helvetica Neue','H
 .big-score{font-size:48px;font-weight:900;color:var(--correct);margin:12px 0;}
 .result-card p{font-size:13px;color:var(--text2);margin:8px 0;}
 .result-card button{margin-top:12px;padding:10px 20px;border-radius:24px;background:var(--highlight);color:#fff;border:none;font-size:14px;font-weight:700;cursor:pointer;}
+.menu-header{position:sticky;}
+.header-side-btn{position:absolute;top:18px;right:12px;background:var(--accent);border:1px solid #2a5a9a;color:var(--text);padding:5px 10px;border-radius:14px;font-size:11px;font-weight:700;cursor:pointer;}
+.header-side-btn.left{left:12px;right:auto;}
+.stats-card{background:var(--card);margin:10px 12px;padding:12px 14px;border-radius:10px;}
+.stats-card h3{font-size:13px;margin-bottom:6px;}
+.stats-big{font-size:40px;font-weight:900;color:var(--correct);text-align:center;margin:6px 0;line-height:1;}
+.stats-row{display:flex;justify-content:space-between;padding:4px 0;font-size:12px;color:var(--text2);border-bottom:1px dashed #2a2a4a;}
+.stats-row:last-child{border-bottom:none;}
+.stats-row b{color:var(--text);font-weight:600;}
+.stats-bar{height:6px;background:#2a2a4a;border-radius:3px;overflow:hidden;margin:6px 0 8px;}
+.stats-bar>span{display:block;height:100%;background:linear-gradient(90deg,var(--correct),#55efc4);transition:width 0.3s;}
+.stats-detail{font-size:11px;color:var(--text2);padding:3px 0;display:flex;justify-content:space-between;gap:6px;}
+.stats-detail .t{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.stats-actions{padding:16px;text-align:center;}
+.danger-btn{background:transparent;color:var(--wrong);border:1px solid var(--wrong);padding:7px 18px;border-radius:18px;font-size:12px;cursor:pointer;}
+.danger-btn:active{background:rgba(214,48,49,0.15);}
 </style>
 </head>
 <body>
@@ -87,7 +105,7 @@ function getBO(tree){const r=buildH(tree);const o=[];const q=[r];while(q.length)
 function rNode(node){
   const f=S.filledMap[node.id],isA=S.blanks[S.currentBlank]===node.id;
   let c='node ',l='';
-  if(node.isGiven){c+='given';l=node.label;}else if(f){c+='filled';l=f;}
+  if(node.isGiven){c+='given';l=node.label;}else if(f){c+='filled';if(S.wrongNodes&&S.wrongNodes.has(node.id))c+=' mistake';l=f;}
   else{c+='blank';if(isA)c+=' active';l='？';}
   return '<div class="'+c+'" data-id="'+node.id+'">'+l.replace(/\n/g,'<br>')+'</div>';
 }
@@ -103,26 +121,27 @@ function getWB(tree){
 }
 function render(){
   const app=document.getElementById('app');
-  if(S.screen==='menu')renderMenu(app);else if(S.screen==='quiz')renderQuiz(app);else renderResult(app);
+  if(S.screen==='menu')renderMenu(app);else if(S.screen==='quiz')renderQuiz(app);else if(S.screen==='stats')renderStats(app);else renderResult(app);
 }
 function renderMenu(app){
-  let h='<div class="menu-wrap"><div class="menu-header"><h2>ロジックツリー演習</h2><div class="sub">KEC 中小企業診断士 2次対策（全'+TREES.length+'問）</div></div>';
+  let h='<div class="menu-wrap"><div class="menu-header"><button class="header-side-btn" id="statsBtn">📊 成績</button><h2>ロジックツリー演習</h2><div class="sub">KEC 中小企業診断士 2次対策（全'+TREES.length+'問）</div></div>';
   SECTIONS.forEach(sec=>{
     const ts=treesFor(sec.id);
     h+='<div class="section-group"><div class="section-title" style="color:'+sec.color+';border-color:'+sec.color+'">'+sec.name+'（'+ts.length+'問）</div>';
     ts.forEach(t=>{
-      const res=S.treeResults[t.globalId],status=res?(res.correct===res.total?'✅':'🔄'):'⬜';
+      const res=S.treeResults[t.globalId],_bc=res?(res.bestCorrect!=null?res.bestCorrect:res.correct):null,status=res?(_bc===res.total?'✅':'🔄'):'⬜';
       h+='<div class="menu-item" data-idx="'+TREES.indexOf(t)+'"><span class="mi-num">'+t.id+'</span><span class="mi-title">'+t.title+'</span><span class="mi-status">'+status+'</span></div>';
     });
     h+='<button class="section-start-btn" data-sec="'+sec.id+'" style="background:'+sec.color+'">'+sec.name+'を通しでチャレンジ</button></div>';
   });
   h+='</div>';app.innerHTML=h;
+  document.getElementById('statsBtn').onclick=()=>{S.screen='stats';render();};
   document.querySelectorAll('.menu-item').forEach(el=>{el.onclick=()=>{S.playList=[+el.dataset.idx];S.playIdx=0;S.totalCorrect=0;S.totalWrong=0;startT(S.playList[0]);};});
   document.querySelectorAll('.section-start-btn').forEach(el=>{el.onclick=()=>{
     S.playList=treesFor(el.dataset.sec).map(t=>TREES.indexOf(t));S.playIdx=0;S.totalCorrect=0;S.totalWrong=0;startT(S.playList[0]);};});
 }
 function startT(idx){
-  S.screen='quiz';S.currentTree=idx;S.filledMap={};S.usedWords=new Set();
+  S.screen='quiz';S.currentTree=idx;S.filledMap={};S.usedWords=new Set();S.wrongNodes=new Set();
   S.correctCount=0;S.wrongCount=0;S.message='';S.msgClass='';
   const t=getTree();S.blanks=getBO(t);S.currentBlank=0;S.wordBank=getWB(t);render();
 }
@@ -141,7 +160,7 @@ function renderQuiz(app){
   if(!done)document.querySelectorAll('.word-btn:not(.used)').forEach(b=>{b.onclick=()=>handleA(b);});
   const n2=document.getElementById('nextBtn');
   if(n2)n2.onclick=()=>{
-    S.treeResults[tree.globalId]={correct:S.correctCount,total:S.blanks.length};
+    updateTreeResult(tree.globalId,S.correctCount,S.blanks.length);
     S.totalCorrect+=S.correctCount;S.totalWrong+=S.wrongCount;
     if(S.playIdx<S.playList.length-1){S.playIdx++;startT(S.playList[S.playIdx]);}
     else if(S.playList.length>1){S.screen='result';render();}
@@ -152,16 +171,78 @@ function renderQuiz(app){
 function handleA(btn){
   const sid=btn.dataset.id,tid=S.blanks[S.currentBlank],tree=getTree(),tn=tree.nodes.find(n=>n.id===tid),tl=tn.label.replace(/\n/g,'');
   if(sid===tid){S.filledMap[tid]=tn.label;S.usedWords.add(sid);S.correctCount++;S.currentBlank++;S.message='⭕ 正解！';S.msgClass='correct';render();}
-  else{S.wrongCount++;S.message='❌ 不正解…';S.msgClass='wrong';
-    const an=document.querySelector('.node.active');if(an){an.classList.add('wrong-anim');setTimeout(()=>an.classList.remove('wrong-anim'),400);}
-    setTimeout(()=>{S.filledMap[tid]=tn.label;S.usedWords.add(tid);S.currentBlank++;S.message='正解：'+tl;S.msgClass='wrong';render();},800);}
+  else{S.wrongCount++;S.wrongNodes.add(tid);S.message='❌ 不正解…';S.msgClass='wrong';
+    const an=document.querySelector('.node.active');if(an){an.classList.add('wrong-anim');setTimeout(()=>an.classList.remove('wrong-anim'),260);}
+    setTimeout(()=>{S.filledMap[tid]=tn.label;S.usedWords.add(tid);S.currentBlank++;S.message='正解：'+tl;S.msgClass='wrong';render();},500);}
 }
 function renderResult(app){
   let tq=0;S.playList.forEach(i=>{tq+=TREES[i].nodes.filter(n=>!n.isGiven).length;});
   const p=tq>0?Math.round(S.totalCorrect/tq*100):0;
   app.innerHTML='<div class="result-overlay"><div class="result-card"><h2>🎯 結果発表</h2><div class="big-score">'+p+'%</div><p>正解: '+S.totalCorrect+' / '+tq+'</p><p>不正解: '+S.totalWrong+'</p><button onclick="S.screen=\'menu\';render();">一覧に戻る</button><br><button onclick="S.totalCorrect=0;S.totalWrong=0;S.playIdx=0;startT(S.playList[0]);" style="margin-top:8px;background:var(--accent);">もう一度</button></div></div>';
 }
-render();
+function saveResults(){try{localStorage.setItem('ltApp.results',JSON.stringify(S.treeResults));}catch(e){}}
+function loadResults(){try{const s=localStorage.getItem('ltApp.results');if(s)S.treeResults=JSON.parse(s)||{};}catch(e){S.treeResults={};}}
+function updateTreeResult(gid,correct,total){
+  const r=S.treeResults[gid]||{};
+  const prevBest=(r.bestCorrect!=null?r.bestCorrect:(r.correct||0));
+  S.treeResults[gid]={
+    attempts:(r.attempts||0)+1,
+    lastCorrect:correct,total:total,
+    bestCorrect:Math.max(prevBest,correct),
+    lastDate:new Date().toISOString().slice(0,10)
+  };
+  saveResults();
+}
+function secStats(ts){
+  let total=0,best=0,last=0,att=0,done=0;
+  ts.forEach(t=>{
+    const blanks=t.nodes.filter(n=>!n.isGiven).length;total+=blanks;
+    const r=S.treeResults[t.globalId];if(!r)return;
+    att++;
+    const bc=(r.bestCorrect!=null?r.bestCorrect:(r.correct||0));
+    const lc=(r.lastCorrect!=null?r.lastCorrect:(r.correct||0));
+    best+=bc;last+=lc;if(bc===blanks)done++;
+  });
+  return {total,best,last,att,done,size:ts.length};
+}
+function renderStats(app){
+  const all=secStats(TREES);
+  const bestPct=all.total>0?Math.round(all.best/all.total*100):0;
+  const lastPct=all.att>0?(()=>{let aq=0,lq=0;TREES.forEach(t=>{const r=S.treeResults[t.globalId];if(!r)return;aq+=(r.total||t.nodes.filter(n=>!n.isGiven).length);lq+=(r.lastCorrect!=null?r.lastCorrect:(r.correct||0));});return aq>0?Math.round(lq/aq*100):0;})():0;
+  let h='<div class="menu-wrap"><div class="menu-header"><button class="header-side-btn left" id="backBtn">← 戻る</button><h2>📊 成績</h2><div class="sub">挑戦 '+all.att+' / '+all.size+' テーマ・完全正解 '+all.done+'</div></div>';
+  h+='<div class="stats-card"><h3>全体サマリー</h3><div class="stats-big">'+bestPct+'%</div>';
+  h+='<div class="stats-bar"><span style="width:'+bestPct+'%"></span></div>';
+  h+='<div class="stats-row"><span>ベスト累計</span><b>'+all.best+' / '+all.total+' 問</b></div>';
+  h+='<div class="stats-row"><span>直近挑戦の正答率</span><b>'+lastPct+'%</b></div>';
+  h+='<div class="stats-row"><span>完全正解テーマ</span><b>'+all.done+' / '+all.size+'</b></div></div>';
+  SECTIONS.forEach(sec=>{
+    const ts=treesFor(sec.id);const st=secStats(ts);
+    const pct=st.total>0?Math.round(st.best/st.total*100):0;
+    h+='<div class="stats-card"><h3 style="color:'+sec.color+'">'+sec.name+'</h3>';
+    h+='<div class="stats-bar"><span style="width:'+pct+'%;background:linear-gradient(90deg,'+sec.color+',#fff3)"></span></div>';
+    h+='<div class="stats-row"><span>正答率（ベスト）</span><b>'+pct+'% ('+st.best+'/'+st.total+')</b></div>';
+    h+='<div class="stats-row"><span>挑戦テーマ</span><b>'+st.att+' / '+st.size+'</b></div>';
+    h+='<div class="stats-row"><span>完全正解</span><b>'+st.done+' / '+st.size+'</b></div>';
+    const attempted=ts.filter(t=>S.treeResults[t.globalId]);
+    if(attempted.length){
+      h+='<details style="margin-top:8px;"><summary style="font-size:11px;color:var(--text2);cursor:pointer;">テーマ別詳細（'+attempted.length+'件）</summary>';
+      attempted.forEach(t=>{
+        const r=S.treeResults[t.globalId];
+        const bc=(r.bestCorrect!=null?r.bestCorrect:(r.correct||0));
+        const lc=(r.lastCorrect!=null?r.lastCorrect:(r.correct||0));
+        const mark=bc===r.total?'✅':'🔄';
+        h+='<div class="stats-detail"><span class="t">'+mark+' No.'+t.id+' '+t.title+'</span><span>'+lc+'/'+r.total+' (ベスト'+bc+') ×'+(r.attempts||1)+'</span></div>';
+      });
+      h+='</details>';
+    }
+    h+='</div>';
+  });
+  h+='<div class="stats-actions"><button class="danger-btn" id="resetBtn">成績をリセット</button></div></div>';
+  app.innerHTML=h;
+  document.getElementById('backBtn').onclick=()=>{S.screen='menu';render();};
+  document.getElementById('resetBtn').onclick=()=>{if(confirm('すべての成績をリセットしますか？この操作は取り消せません。')){S.treeResults={};saveResults();render();}};
+}
+loadResults();render();
 </script>
 </body>
 </html>
